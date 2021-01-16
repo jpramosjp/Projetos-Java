@@ -3,10 +3,10 @@ public class Pedido {
     int quantidade;
     Imposto imposto;
 
-    public Pedido(Produto produto, int quantidade, Imposto impostinhoDEMERDA) {
+    public Pedido(Produto produto, int quantidade, Imposto imposto) {
         this.produto = produto;
         this.quantidade = quantidade;
-        this.imposto = impostinhoDEMERDA;
+        this.imposto = imposto;
     }
 
     public void setQuantidade(int quantidade) {
